@@ -1,0 +1,24 @@
+{
+    "name": "client-manager",
+    "description" : "A really simple script to manage clients",
+    "keywords" : [
+        "clients",
+        "socket",
+        "manager"
+    ],
+    "author": "Folklore <info@atelierfolklore.ca>",
+    "maintainers": [
+        "David Mongeau-Petitpas <dmp@atelierfolklore.ca>"
+    ],
+    "version": "0.0.1",
+    "dependencies": {},
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Folkloreatelier/node-client-manager.git"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "http://github.com/Folkloreatelier/node-client-manager/raw/master/LICENSE"
+    }
+}
