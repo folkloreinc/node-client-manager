@@ -7,8 +7,9 @@
         "manager"
     ],
     "author": "Folklore <info@atelierfolklore.ca>",
-    "maintainers": [
-        "David Mongeau-Petitpas <dmp@atelierfolklore.ca>"
+    "contributors": [
+        "David Mongeau-Petitpas <dmp@atelierfolklore.ca>",
+        "François Côté <fc@atelierfolklore.ca>"
     ],
     "version": "0.0.2",
     "dependencies": {},
