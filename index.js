@@ -42,6 +42,14 @@ ClientManager.prototype.removeClient = function(id) {
 	}
 };
 
+ClientManager.prototype.each = function(fn) {
+	for(var i = 0; i < this.clientsQueue.length; i++) {
+		var key = this.clientsQueue[i];
+		var client = this.clients[key];
+		fn.call(client, key, client);
+	}
+};
+
 function factory() {
 	return new ClientManager();
 }
