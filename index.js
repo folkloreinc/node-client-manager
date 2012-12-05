@@ -21,9 +21,7 @@ ClientManager.prototype.addClient = function(id,client) {
 	this.clientsQueue.push(id);
 	this.count = this.clientsQueue.length;
 
-	if(this.count == 0) {
-		this.emit('add',client);
-	}
+	this.emit('add',client);
 };
 
 ClientManager.prototype.removeClient = function(id) {
